@@ -13,7 +13,7 @@ function alterarLink() {
         link.href = "https://forms.gle/6EftgM4Dgr1kzTu38";
         link.textContent = "Acessar";
     } else {
-        link.href = "../link-indisponivel.html";
+        link.href = "../paginaerro/link-indisponivel.html";
         link.textContent = "Acessar";
     }
 }
