@@ -9,7 +9,7 @@ function alterarLink() {
     const link = document.getElementById("meuLink");
 
     // Verificar dia e horário
-    if ((diaSemana === 4 && hora > 7) && (diaSemana === 4 && hora < 10)) { // Quinta feira, depois das 7h e antes das 10h
+    if ((diaSemana === 3 && hora > 7) && (diaSemana === 3 && hora < 12)) { // Quinta feira, depois das 7h e antes das 10h
         link.href = "https://forms.gle/6EftgM4Dgr1kzTu38";
         link.textContent = "Acessar";
     } else {
