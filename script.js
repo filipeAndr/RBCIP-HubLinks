@@ -10,7 +10,7 @@ function alterarLink() {
 
     // Verificar dia e horário
     if ((diaSemana === 4 && hora > 7) && (diaSemana === 4 && hora < 10)) { // Quinta feira, depois das 7h e antes das 10h
-        link.href = "https://forms.gle/6EftgM4Dgr1kzTu38";
+        link.href = "https://docs.google.com/forms/d/e/1FAIpQLScMa7x1JvlzTrC9e1_y99A754qzoLtUpim8wHlhqj3p1IF0PA/viewform?usp=sf_link";
         link.textContent = "Acessar";
     } else {
         link.href = "./paginaerro/link-indisponivel.html";
