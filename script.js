@@ -3,7 +3,7 @@ function alterarLink() {
     // Obter a data e hora atuais
     const agora = new Date();
     const diaSemana = agora.getDay(); // 0 = Domingo, 1 = Segunda, ..., 6 = Sábado
-    const hora = agora.getHours();   // Hora atual
+    //const hora = agora.getHours();   // Hora atual
 
     // Selecionar o elemento do link
     const link = document.getElementById("meuLink");

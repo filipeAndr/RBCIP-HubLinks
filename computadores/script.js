@@ -3,12 +3,12 @@ function alterarLink() {
     // Obter a data e hora atuais
     const agora = new Date();
     const diaSemana = agora.getDay(); // 0 = Domingo, 1 = Segunda, ..., 6 = Sábado
-    const hora = agora.getHours();   // Hora atual
+    //const hora = agora.getHours();   // Hora atual
 
     // Selecionar o elemento do link
     const link = document.getElementById("meuLink");
 
-    // Verificar dia e horário
+    // Verificar dia 
     if ((diaSemana == 4) || (diaSemana == 5)) { // Quinta feira ou Sexta feira 
         link.href = "https://docs.google.com/forms/d/e/1FAIpQLScMa7x1JvlzTrC9e1_y99A754qzoLtUpim8wHlhqj3p1IF0PA/viewform?usp=sf_link";
         link.textContent = "Acessar";
